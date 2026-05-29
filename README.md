@@ -1,0 +1,2 @@
+# AdtalosAdKitMediatomAdapter
+AdtalosAdKit SDK的Mediatom适配器，提供广告展示和交互功能。
