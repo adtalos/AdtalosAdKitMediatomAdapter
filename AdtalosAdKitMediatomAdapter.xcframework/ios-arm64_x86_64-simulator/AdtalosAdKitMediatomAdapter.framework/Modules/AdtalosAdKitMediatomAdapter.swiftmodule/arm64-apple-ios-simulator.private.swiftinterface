@@ -1,0 +1,89 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AdtalosAdKitMediatomAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
+import AdtalosAdKit
+import Foundation
+import MSaas
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomBannerAdapter) public class AdtalosMediatomBannerAdapter : MSaas.SFBaseManager {
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with model: MSaas.SFAdSourcesModel)
+  @objc override dynamic public func showBannerAd(with view: UIKit.UIView)
+  @objc override dynamic public func biddingAdFail(withPrice price: Swift.String)
+  @objc override dynamic public func biddingAdSuccess(withPrice price: Swift.String, secondPrice: Swift.String)
+  @objc override dynamic public func deallocAllProperty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomAdapterSupport) final public class AdtalosMediatomAdapterSupport : ObjectiveC.NSObject {
+  public static let adapterSDKVersion: Swift.String
+  @objc public static func setIdfa(_ idfa: Swift.String)
+  @objc public static func setAcquireIDFA(_ enabled: Swift.Bool)
+  @objc public static func setAcquireIDFV(_ enabled: Swift.Bool)
+  @objc public static func setAcquireUserAgent(_ enabled: Swift.Bool)
+  @objc public static func setAcquireGeoInfo(_ enabled: Swift.Bool)
+  @objc public static func setAcquireInstalledApps(_ enabled: Swift.Bool)
+  @objc public static func setEnableLocalLog(_ enabled: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func setJoinKey(_ joinKey: AdtalosAdKit.JoinKey?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getJoinKey() -> AdtalosAdKit.JoinKey?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func setJoinKey2(_ joinKey2: AdtalosAdKit.JoinKey?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getJoinKey2() -> AdtalosAdKit.JoinKey?
+  #endif
+  @objc final public func adapterVersion() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomInterstitialAdapter) public class AdtalosMediatomInterstitialAdapter : MSaas.SFBaseManager {
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with model: MSaas.SFAdSourcesModel)
+  @objc override dynamic public func biddingAdFail(withPrice price: Swift.String)
+  @objc override dynamic public func biddingAdSuccess(withPrice price: Swift.String, secondPrice: Swift.String)
+  @objc override dynamic public func showInterstitialAd()
+  @objc override dynamic public func deallocAllProperty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomNativeAdapter) public class AdtalosMediatomNativeAdapter : MSaas.SFBaseManager {
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with model: MSaas.SFAdSourcesModel)
+  @objc override dynamic public func renderView(withViewArray viewArray: [Any])
+  @objc override dynamic public func registerAd(for view: UIKit.UIView, adData: MSaas.SFFeedAdData)
+  @objc override dynamic public func biddingAdFail(withPrice price: Swift.String)
+  @objc override dynamic public func biddingAdSuccess(withPrice price: Swift.String, secondPrice: Swift.String)
+  @objc override dynamic public func unregisterAdData(_ adData: MSaas.SFFeedAdData)
+  @objc override dynamic public func deallocAllProperty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomNativeAdPayload) final public class AdtalosMediatomNativeAdPayload : ObjectiveC.NSObject {
+  @objc weak final public var nativeAd: AdtalosAdKit.NativeAd?
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomRewardVideoAdapter) public class AdtalosMediatomRewardVideoAdapter : MSaas.SFBaseManager {
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with model: MSaas.SFAdSourcesModel)
+  @objc override dynamic public func showRewardVideoAD()
+  @objc override dynamic public func biddingAdFail(withPrice price: Swift.String)
+  @objc override dynamic public func biddingAdSuccess(withPrice price: Swift.String, secondPrice: Swift.String)
+  @objc override dynamic public func deallocAllProperty()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(AdtalosMediatomSplashAdapter) public class AdtalosMediatomSplashAdapter : MSaas.SFBaseManager {
+  @objc override dynamic public init()
+  @objc override dynamic public func loadAD(with model: MSaas.SFAdSourcesModel)
+  @objc override dynamic public func showSplashAd(in window: UIKit.UIWindow, withBottomView bottomView: UIKit.UIView)
+  @objc override dynamic public func biddingAdFail(withPrice price: Swift.String)
+  @objc override dynamic public func biddingAdSuccess(withPrice price: Swift.String, secondPrice: Swift.String)
+  @objc override dynamic public func deallocAllProperty()
+  @objc deinit
+}

@@ -1,0 +1,4 @@
+framework module AdtalosAdKitMediatomAdapter {
+  header "AdtalosAdKitMediatomAdapter-Swift.h"
+  requires objc
+}

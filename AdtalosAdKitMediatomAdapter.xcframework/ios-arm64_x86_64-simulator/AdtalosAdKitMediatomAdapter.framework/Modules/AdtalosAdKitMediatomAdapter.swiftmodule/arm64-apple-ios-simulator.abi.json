@@ -1,0 +1,2573 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "AdtalosAdKitMediatomAdapter",
+    "printedName": "AdtalosAdKitMediatomAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomBannerAdapter",
+        "printedName": "AdtalosMediatomBannerAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomBannerAdapter",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomBannerAdapter",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0CACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFAdSourcesModel",
+                "printedName": "MSaas.SFAdSourcesModel",
+                "usr": "c:objc(cs)SFAdSourcesModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)loadADWithModel:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C6loadAD4withySo16SFAdSourcesModelC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showBannerAd",
+            "printedName": "showBannerAd(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)showBannerAdWithView:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C04showfB04withySo6UIViewC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "showBannerAdWithView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdFail",
+            "printedName": "biddingAdFail(withPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)biddingAdFailWithPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C07biddingB4Fail9withPriceySS_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdFailWithPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdSuccess",
+            "printedName": "biddingAdSuccess(withPrice:secondPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)biddingAdSuccessWithPrice:SecondPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C07biddingB7Success9withPrice06secondJ0ySS_SStF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdSuccessWithPrice:SecondPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deallocAllProperty",
+            "printedName": "deallocAllProperty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter(im)deallocAllProperty",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C18deallocAllPropertyyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "deallocAllProperty",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomBannerAdapter",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6BannerE0C",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomBannerAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFBaseManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MSaas.SFBaseManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomAdapterSupport",
+        "printedName": "AdtalosMediatomAdapterSupport",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adapterSDKVersion",
+            "printedName": "adapterSDKVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:27AdtalosAdKitMediatomAdapter0adE7SupportC17adapterSDKVersionSSvpZ",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC17adapterSDKVersionSSvpZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27AdtalosAdKitMediatomAdapter0adE7SupportC17adapterSDKVersionSSvgZ",
+                "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC17adapterSDKVersionSSvgZ",
+                "moduleName": "AdtalosAdKitMediatomAdapter",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setIdfa",
+            "printedName": "setIdfa(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setIdfa:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC7setIdfayySSFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireIDFA",
+            "printedName": "setAcquireIDFA(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setAcquireIDFA:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC14setAcquireIDFAyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireIDFV",
+            "printedName": "setAcquireIDFV(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setAcquireIDFV:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC14setAcquireIDFVyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireUserAgent",
+            "printedName": "setAcquireUserAgent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setAcquireUserAgent:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC19setAcquireUserAgentyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireGeoInfo",
+            "printedName": "setAcquireGeoInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setAcquireGeoInfo:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC17setAcquireGeoInfoyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAcquireInstalledApps",
+            "printedName": "setAcquireInstalledApps(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setAcquireInstalledApps:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC23setAcquireInstalledAppsyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setEnableLocalLog",
+            "printedName": "setEnableLocalLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setEnableLocalLog:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC17setEnableLocalLogyySbFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setJoinKey",
+            "printedName": "setJoinKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.JoinKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinKey",
+                    "printedName": "AdtalosAdKit.JoinKey",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setJoinKey:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC10setJoinKeyyy0abC00hI0CSgFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getJoinKey",
+            "printedName": "getJoinKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.JoinKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinKey",
+                    "printedName": "AdtalosAdKit.JoinKey",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)getJoinKey",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC10getJoinKey0abC00hI0CSgyFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setJoinKey2",
+            "printedName": "setJoinKey2(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.JoinKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinKey",
+                    "printedName": "AdtalosAdKit.JoinKey",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)setJoinKey2:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC11setJoinKey2yy0abC00H3KeyCSgFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getJoinKey2",
+            "printedName": "getJoinKey2()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AdtalosAdKit.JoinKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "JoinKey",
+                    "printedName": "AdtalosAdKit.JoinKey",
+                    "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosJoinKey"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(cm)getJoinKey2",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC11getJoinKey20abC00H3KeyCSgyFZ",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "adapterVersion",
+            "printedName": "adapterVersion()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(im)adapterVersion",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC14adapterVersionSSyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomAdapterSupport",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomAdapterSupport",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportCACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomAdapterSupport",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0adE7SupportC",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomAdapterSupport",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomInterstitialAdapter",
+        "printedName": "AdtalosMediatomInterstitialAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomInterstitialAdapter",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomInterstitialAdapter",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0CACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFAdSourcesModel",
+                "printedName": "MSaas.SFAdSourcesModel",
+                "usr": "c:objc(cs)SFAdSourcesModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)loadADWithModel:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C6loadAD4withySo16SFAdSourcesModelC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdFail",
+            "printedName": "biddingAdFail(withPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)biddingAdFailWithPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C07biddingB4Fail9withPriceySS_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdFailWithPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdSuccess",
+            "printedName": "biddingAdSuccess(withPrice:secondPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)biddingAdSuccessWithPrice:SecondPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C07biddingB7Success9withPrice06secondJ0ySS_SStF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdSuccessWithPrice:SecondPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showInterstitialAd",
+            "printedName": "showInterstitialAd()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)showInterstitialAd",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C04showfB0yyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "showInterstitialAd",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deallocAllProperty",
+            "printedName": "deallocAllProperty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter(im)deallocAllProperty",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C18deallocAllPropertyyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "deallocAllProperty",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomInterstitialAdapter",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad12InterstitialE0C",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomInterstitialAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFBaseManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MSaas.SFBaseManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomNativeAdapter",
+        "printedName": "AdtalosMediatomNativeAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomNativeAdapter",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomNativeAdapter",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0CACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFAdSourcesModel",
+                "printedName": "MSaas.SFAdSourcesModel",
+                "usr": "c:objc(cs)SFAdSourcesModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)loadADWithModel:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C6loadAD4withySo16SFAdSourcesModelC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "renderView",
+            "printedName": "renderView(withViewArray:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)renderViewWithViewArray:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C10renderView04withH5ArrayySayypG_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "renderViewWithViewArray:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerAd",
+            "printedName": "registerAd(for:adData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFFeedAdData",
+                "printedName": "MSaas.SFFeedAdData",
+                "usr": "c:objc(cs)SFFeedAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)registerAdForView:adData:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C08registerB03for6adDataySo6UIViewC_So06SFFeedbJ0CtF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "registerAdForView:adData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdFail",
+            "printedName": "biddingAdFail(withPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)biddingAdFailWithPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C07biddingB4Fail9withPriceySS_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdFailWithPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdSuccess",
+            "printedName": "biddingAdSuccess(withPrice:secondPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)biddingAdSuccessWithPrice:SecondPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C07biddingB7Success9withPrice06secondJ0ySS_SStF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdSuccessWithPrice:SecondPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unregisterAdData",
+            "printedName": "unregisterAdData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFFeedAdData",
+                "printedName": "MSaas.SFFeedAdData",
+                "usr": "c:objc(cs)SFFeedAdData"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)unregisterAdData:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C010unregisterB4DatayySo06SFFeedbH0CF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "unregisterAdData:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deallocAllProperty",
+            "printedName": "deallocAllProperty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter(im)deallocAllProperty",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C18deallocAllPropertyyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "deallocAllProperty",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdapter",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeE0C",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomNativeAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFBaseManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MSaas.SFBaseManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomNativeAdPayload",
+        "printedName": "AdtalosMediatomNativeAdPayload",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nativeAd",
+            "printedName": "nativeAd",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "AdtalosAdKit.NativeAd?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload(py)nativeAd",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC06nativeB00abC00fB0CSgvp",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.NativeAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAd",
+                        "printedName": "AdtalosAdKit.NativeAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosNativeAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload(im)nativeAd",
+                "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC06nativeB00abC00fB0CSgvg",
+                "moduleName": "AdtalosAdKitMediatomAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AdtalosAdKit.NativeAd?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeAd",
+                        "printedName": "AdtalosAdKit.NativeAd",
+                        "usr": "c:@M@AdtalosAdKit@objc(cs)AdtalosNativeAd"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload(im)setNativeAd:",
+                "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC06nativeB00abC00fB0CSgvs",
+                "moduleName": "AdtalosAdKitMediatomAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC06nativeB00abC00fB0CSgvM",
+                "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC06nativeB00abC00fB0CSgvM",
+                "moduleName": "AdtalosAdKitMediatomAdapter",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomNativeAdPayload",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomNativeAdPayload",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadCACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomNativeAdPayload",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6NativeB7PayloadC",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomNativeAdPayload",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomRewardVideoAdapter",
+        "printedName": "AdtalosMediatomRewardVideoAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomRewardVideoAdapter",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomRewardVideoAdapter",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0CACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFAdSourcesModel",
+                "printedName": "MSaas.SFAdSourcesModel",
+                "usr": "c:objc(cs)SFAdSourcesModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)loadADWithModel:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C6loadAD4withySo16SFAdSourcesModelC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showRewardVideoAD",
+            "printedName": "showRewardVideoAD()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)showRewardVideoAD",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C04showfG2ADyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "showRewardVideoAD",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdFail",
+            "printedName": "biddingAdFail(withPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)biddingAdFailWithPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C07biddingB4Fail9withPriceySS_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdFailWithPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdSuccess",
+            "printedName": "biddingAdSuccess(withPrice:secondPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)biddingAdSuccessWithPrice:SecondPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C07biddingB7Success9withPrice06secondK0ySS_SStF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdSuccessWithPrice:SecondPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deallocAllProperty",
+            "printedName": "deallocAllProperty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter(im)deallocAllProperty",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C18deallocAllPropertyyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "deallocAllProperty",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomRewardVideoAdapter",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad11RewardVideoE0C",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomRewardVideoAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFBaseManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MSaas.SFBaseManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdtalosAdKit",
+        "printedName": "AdtalosAdKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "MSaas",
+        "printedName": "MSaas",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdtalosMediatomSplashAdapter",
+        "printedName": "AdtalosMediatomSplashAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdtalosMediatomSplashAdapter",
+                "printedName": "AdtalosAdKitMediatomAdapter.AdtalosMediatomSplashAdapter",
+                "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)init",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0CACycfc",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAD",
+            "printedName": "loadAD(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFAdSourcesModel",
+                "printedName": "MSaas.SFAdSourcesModel",
+                "usr": "c:objc(cs)SFAdSourcesModel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)loadADWithModel:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C6loadAD4withySo16SFAdSourcesModelC_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "loadADWithModel:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSplashAd",
+            "printedName": "showSplashAd(in:withBottomView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIWindow",
+                "printedName": "UIKit.UIWindow",
+                "usr": "c:objc(cs)UIWindow"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)showSplashAdInWindow:withBottomView:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C04showfB02in14withBottomViewySo8UIWindowC_So6UIViewCtF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "showSplashAdInWindow:withBottomView:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdFail",
+            "printedName": "biddingAdFail(withPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)biddingAdFailWithPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C07biddingB4Fail9withPriceySS_tF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdFailWithPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "biddingAdSuccess",
+            "printedName": "biddingAdSuccess(withPrice:secondPrice:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)biddingAdSuccessWithPrice:SecondPrice:",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C07biddingB7Success9withPrice06secondJ0ySS_SStF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "biddingAdSuccessWithPrice:SecondPrice:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deallocAllProperty",
+            "printedName": "deallocAllProperty()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter(im)deallocAllProperty",
+            "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C18deallocAllPropertyyyF",
+            "moduleName": "AdtalosAdKitMediatomAdapter",
+            "overriding": true,
+            "objc_name": "deallocAllProperty",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AdtalosAdKitMediatomAdapter@objc(cs)AdtalosMediatomSplashAdapter",
+        "mangledName": "$s27AdtalosAdKitMediatomAdapter0ad6SplashE0C",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "objc_name": "AdtalosMediatomSplashAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SFBaseManager",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "MSaas.SFBaseManager",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdtalosAdKitMediatomAdapter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 294,
+      "length": 3,
+      "value": "490"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 3,
+      "value": "491"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 346,
+      "length": 3,
+      "value": "492"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 375,
+      "length": 3,
+      "value": "493"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 445,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 517,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 877,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 923,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1052,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "StringLiteral",
+      "offset": 1179,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1223,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1269,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1320,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1424,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Base\/AdtalosMediatomAdapterSupport.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1473,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/xinyihulian\/Desktop\/Adtalos\/SDK\/iOS\/ios-xy-sdk\/AdtalosAdKitMediatomAdapter\/AdtalosAdKitMediatomAdapter\/AdtalosAdMediatomAdapter\/Native\/AdtalosMediatomNativeAdapter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
