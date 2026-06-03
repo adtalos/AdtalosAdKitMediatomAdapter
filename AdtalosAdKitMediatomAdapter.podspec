@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target = "12.0"
 
-  spec.vendored_frameworks  = "AdtalosAdKitMediatomAdapter.xcframework"
+  spec.source_files = "AdtalosAdMediatomAdapter/**/*.swift"
 
   spec.source = {
     :git => "https://github.com/adtalos/AdtalosAdKitMediatomAdapter.git",
