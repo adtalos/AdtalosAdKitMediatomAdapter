@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKitMediatomAdapter"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "AdtalosAdKit 广告 SDK 的Mediatom Adapter"
 
   spec.description  = <<-DESC
@@ -24,7 +24,9 @@ Pod::Spec.new do |spec|
   
   spec.ios.deployment_target = "12.0"
 
-  spec.source_files = "AdtalosAdMediatomAdapter/**/*.swift"
+  spec.static_framework = true
+
+  spec.source_files = "AdtalosAdKitMediatomAdapter/**/*.swift"
 
   spec.source = {
     :git => "https://github.com/adtalos/AdtalosAdKitMediatomAdapter.git",
@@ -32,7 +34,7 @@ Pod::Spec.new do |spec|
   }
 
   spec.dependency 'AdtalosAdKit', '~> 1.0.8'
-  spec.dependency 'MediatomiOS/MSaas', '~> 2.9.0.0.7'
+  spec.dependency 'MediatomiOS/MSaas', '~> 2.9.0.1.6'
 
   spec.swift_versions = ["5.7"]
 
