@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AdtalosAdKitMediatomAdapter"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "AdtalosAdKit 广告 SDK 的Mediatom Adapter"
 
   spec.description  = <<-DESC
@@ -33,7 +33,7 @@ Pod::Spec.new do |spec|
     :tag => spec.version.to_s
   }
 
-  spec.dependency 'AdtalosAdKit', '~> 1.0.8'
+  spec.dependency 'AdtalosAdKit', '~> 1.1.2'
   spec.dependency 'MediatomiOS/MSaas', '~> 2.9.0.1.6'
 
   spec.swift_versions = ["5.7"]
