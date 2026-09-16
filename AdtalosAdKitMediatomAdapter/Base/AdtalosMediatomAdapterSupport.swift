@@ -120,24 +120,27 @@ public final class AdtalosMediatomAdapterSupport: NSObject {
     if joinKey.joinKey.isEmpty {
       let selector = Selector(("getADIDValue"))
       if let cls = NSClassFromString("SFNetTool") as? NSObject.Type,
-         cls.responds(to: selector),
-         let adidJson = cls.perform(selector)?.takeUnretainedValue() as? String,
-         let data = adidJson.data(using: .utf8),
-         let entries = (try? JSONSerialization.jsonObject(with: data)) as? [[String: Any]] {
+        cls.responds(to: selector),
+        let adidJson = cls.perform(selector)?.takeUnretainedValue() as? String,
+        let data = adidJson.data(using: .utf8),
+        let entries = (try? JSONSerialization.jsonObject(with: data)) as? [[String: Any]]
+      {
         if let first = entries.first,
-           let caid = first["caid"] as? String,
-           let version = first["version"] as? String {
+          let caid = first["caid"] as? String,
+          let version = first["version"] as? String
+        {
           joinKey = JoinKey(joinKey: caid, version: version)
         }
         if entries.count > 1,
-           joinKey2.joinKey.isEmpty,
-           let caid = entries[1]["caid"] as? String,
-           let version = entries[1]["version"] as? String {
+          joinKey2.joinKey.isEmpty,
+          let caid = entries[1]["caid"] as? String,
+          let version = entries[1]["version"] as? String
+        {
           joinKey2 = JoinKey(joinKey: caid, version: version)
         }
       }
     }
-    
+
     let config = Configuration(
       token: token,
       appToken: appToken,

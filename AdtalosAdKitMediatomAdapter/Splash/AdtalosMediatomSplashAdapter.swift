@@ -48,28 +48,40 @@ public class AdtalosMediatomSplashAdapter: SFBaseManager {
   public override func showSplashAd(in window: UIWindow, withBottomView bottomView: UIView) {
     DispatchQueue.main.async { [weak self, weak window, weak bottomView] in
       guard let self, let ad = self.splashAd else { return }
-      if let bottomView = bottomView, let window = window {
+      guard let window = window else {
+        ad.show()
+        return
+      }
+      // Window 只是聚合 SDK 的展示入口；广告本身要挂在控制器层级中，
+      // 这样点击广告打开落地页时，落地页可以正常位于开屏广告之上。
+      guard let viewController = window.rootViewController else {
+        // 极端情况下没有根控制器时，交给广告对象自行寻找当前控制器展示。
+        ad.show()
+        return
+      }
+      if let bottomView = bottomView {
         self.bottomView = bottomView
-        window.addSubview(bottomView)
+        // 底部 Logo 与广告放在同一个 VC 的 view 层级，避免 Window 子视图盖住模态页面。
+        viewController.view.addSubview(bottomView)
         let size =
-          bottomView.bounds.size == .zero
-          ? CGSize(width: window.bounds.width, height: 0)
+          bottomView.bounds.size == .zero ? CGSize(width: window.bounds.width, height: 0)
           : bottomView.bounds.size
         bottomView.frame = CGRect(
           x: 0,
-          y: window.bounds.height - size.height,
+          y: viewController.view.bounds.height - size.height,
           width: window.bounds.width,
           height: size.height
         )
-        _ = ad.show(view: window, frame: CGRect(
+        // 使用 VC 承载广告，保证后续落地页 present 在广告容器之上。
+        _ = ad.show(viewController: viewController, frame: CGRect(
           x: 0,
           y: 0,
           width: window.bounds.width,
-          height: window.bounds.height - bottomView.frame.height
+          height: viewController.view.bounds.height - bottomView.frame.height
         ))
-        return
+      } else {
+        ad.show()
       }
-      ad.show()
     }
   }
 
