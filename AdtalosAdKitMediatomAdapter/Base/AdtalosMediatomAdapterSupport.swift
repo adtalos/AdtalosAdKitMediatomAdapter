@@ -26,7 +26,7 @@ enum AdtalosMediatomMediaPlayerStatus {
 
 @objc(AdtalosMediatomAdapterSupport)
 public final class AdtalosMediatomAdapterSupport: NSObject {
-  public static let adapterSDKVersion: String = "1.0.0"
+  public static let adapterSDKVersion: String = "1.0.4"
 
   /// Mediatom 信息流：`adv_place_type` 31 原生自渲染，32 模板（见 `SFAdSourcesModel.h`）
   static let advPlaceNativeSelfRender: Int = 31
@@ -116,7 +116,7 @@ public final class AdtalosMediatomAdapterSupport: NSObject {
     var joinKey = presetJoinKey ?? JoinKey()
     var joinKey2 = presetJoinKey2 ?? JoinKey()
 
-    // joinKey 为空时，尝试从 SFNetTool 获取 ADID（CAID）作为 joinKey/joinKey2
+    // joinKey 为空时，尝试从 SFNetTool 获取 ADID 作为 joinKey/joinKey2
     if joinKey.joinKey.isEmpty {
       let selector = Selector(("getADIDValue"))
       if let cls = NSClassFromString("SFNetTool") as? NSObject.Type,
@@ -155,6 +155,10 @@ public final class AdtalosMediatomAdapterSupport: NSObject {
       joinKey2: joinKey2
     )
 
+    SDK.setAdnInfo(
+      platform: "mediatom",
+      version: AdtalosMediatomAdapterSupport.adapterSDKVersion
+    )
     SDK.initialize(config)
     EventReporter.apply(
       eventType: MediatomAdapterEvent.mediatomInit.rawValue,

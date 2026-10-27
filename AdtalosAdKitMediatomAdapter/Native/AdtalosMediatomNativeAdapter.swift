@@ -50,7 +50,24 @@ public class AdtalosMediatomNativeAdapter: SFBaseManager {
 
       if self.isTemplateMode {
         self.nativeAd = nil
-        self.feedAd = FeedAd(unitID: slot)
+        // 后台 ext 配置兼容布尔值和字符串，未配置或无效时使用自适应高度。
+        let useFixedHeight: Bool
+        switch dic["adtalos_use_fixed_height"] {
+        case let value as Bool:
+          useFixedHeight = value
+        case let value as String:
+          useFixedHeight = value.trimmingCharacters(in: .whitespacesAndNewlines).lowercased() == "true"
+        default:
+          useFixedHeight = false
+        }
+        // 固定高度使用 SFTemplateManager 传入的有效高度。
+        self.feedAd = FeedAd(
+          frame: CGRect(
+            x: 0, y: 0,
+            width: self.size.width > 0 ? self.size.width : UIScreen.main.bounds.width,
+            height: useFixedHeight && self.size.height > 0 ? self.size.height : 0
+          ),
+          unitID: slot)
         self.feedAd?.listener = self.adListener
         self.feedAd?.videoListener = self.adListener
         self.feedAd?.autoRetry = 0
