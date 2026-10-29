@@ -26,7 +26,7 @@ enum AdtalosMediatomMediaPlayerStatus {
 
 @objc(AdtalosMediatomAdapterSupport)
 public final class AdtalosMediatomAdapterSupport: NSObject {
-  public static let adapterSDKVersion: String = "1.0.4"
+  public static let adapterSDKVersion: String = "1.0.5"
 
   /// Mediatom 信息流：`adv_place_type` 31 原生自渲染，32 模板（见 `SFAdSourcesModel.h`）
   static let advPlaceNativeSelfRender: Int = 31

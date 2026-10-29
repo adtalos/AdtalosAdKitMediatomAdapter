@@ -45,6 +45,29 @@ public class AdtalosMediatomSplashAdapter: SFBaseManager {
     }
   }
 
+  public override func showSplashAd(withBottomView bottomView: UIView) {
+    DispatchQueue.main.async { [weak self] in
+      guard let self, let ad = self.splashAd else { return }
+
+      let window = bottomView.window ?? {
+        if #available(iOS 13.0, *) {
+          return UIApplication.shared.connectedScenes
+            .compactMap { $0 as? UIWindowScene }
+            .first { $0.activationState == .foregroundActive }?
+            .windows
+            .first { $0.isKeyWindow }
+        }
+        return UIApplication.shared.keyWindow
+      }()
+
+      guard let window else {
+        ad.show()
+        return
+      }
+      self.showSplashAd(in: window, withBottomView: bottomView)
+    }
+  }
+
   public override func showSplashAd(in window: UIWindow, withBottomView bottomView: UIView) {
     DispatchQueue.main.async { [weak self, weak window, weak bottomView] in
       guard let self, let ad = self.splashAd else { return }
